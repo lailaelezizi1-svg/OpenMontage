@@ -1,0 +1,16 @@
+{
+  "territories": [
+    {"id": "monopoli", "name": "Monopoli", "province": "BA", "region": "Puglia", "country": "IT", "enabled": true},
+    {"id": "polignano-a-mare", "name": "Polignano a Mare", "province": "BA", "region": "Puglia", "country": "IT", "enabled": true}
+  ],
+  "categories": {
+    "bar":        {"label": "Bar e wine bar", "osm": ["amenity=bar", "amenity=cafe", "amenity=pub"]},
+    "ristorante": {"label": "Ristoranti e pizzerie", "osm": ["amenity=restaurant", "amenity=fast_food"]},
+    "hotel":      {"label": "Hotel e B&B", "osm": ["tourism=hotel", "tourism=guest_house", "tourism=apartment", "tourism=hostel"]},
+    "lido":       {"label": "Stabilimenti balneari", "osm": ["leisure=beach_resort"]},
+    "bellezza":   {"label": "Parrucchieri e centri estetici", "osm": ["shop=hairdresser", "shop=beauty"]},
+    "sport":      {"label": "Palestre e centri sportivi", "osm": ["leisure=fitness_centre", "leisure=sports_centre"]},
+    "negozio":    {"label": "Attivita commerciali locali", "osm": ["shop=clothes", "shop=florist", "shop=bakery", "shop=gift"]},
+    "studio":     {"label": "Studi professionali", "osm": ["office=lawyer", "office=accountant", "office=estate_agent", "office=architect"]}
+  }
+}

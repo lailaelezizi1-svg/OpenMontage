@@ -1,0 +1,6 @@
+{
+  "limits": {"discover_per_run": 150, "analyze_per_run": 40, "send_per_day": 10, "min_seconds_between_requests": 2},
+  "scoring_min_to_contact": 50,
+  "sender": {"name": "", "company": "", "postal_address": "", "privacy_url": ""},
+  "auto_send": false
+}
